@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pkss_projekt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pkss_projekt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pkss_projekt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="finale_ert_rtw/buildInfo.mat" />
+		<Unit filename="finale_ert_rtw/codeInfo.mat" />
+		<Unit filename="finale_ert_rtw/codedescriptor.dmr" />
+		<Unit filename="finale_ert_rtw/defines.txt" />
+		<Unit filename="finale_ert_rtw/ert_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="finale_ert_rtw/finale.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="finale_ert_rtw/finale.h" />
+		<Unit filename="finale_ert_rtw/finale_manifest.txt" />
+		<Unit filename="finale_ert_rtw/make_exception.mat" />
+		<Unit filename="finale_ert_rtw/modelsources.txt" />
+		<Unit filename="finale_ert_rtw/rtw_continuous.h" />
+		<Unit filename="finale_ert_rtw/rtw_proj.tmw" />
+		<Unit filename="finale_ert_rtw/rtw_solver.h" />
+		<Unit filename="finale_ert_rtw/rtwtypes.h" />
+		<Unit filename="finale_ert_rtw/rtwtypeschksum.mat" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

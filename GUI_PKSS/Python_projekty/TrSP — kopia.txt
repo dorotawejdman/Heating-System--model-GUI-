@@ -1,0 +1,3 @@
+0  // to wczytujemy z  Temperatura_w_budynku.csv  a jak "1" to z drugiej i trzeciej liniki.
+15  //Tr1Sp
+15  //Tr2Sp
